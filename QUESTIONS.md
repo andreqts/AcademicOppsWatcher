@@ -1,8 +1,8 @@
-# AcademicOppWatcher — Intake Questions (Round 1)
+# AcademicOppsWatcher — Intake Questions (Round 1)
 
 Answer inline below each question, then tell me to read it back.
 
-## Q1 — What does AcademicOppWatcher do?
+## Q1 — What does AcademicOppsWatcher do?
 (The name is the only signal so far — "PSS" could mean Proportional Set Size,
 a Linux memory metric, or something else entirely specific to your context.
 Give the actual purpose in a sentence.)
