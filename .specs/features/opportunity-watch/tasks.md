@@ -10,7 +10,7 @@ Implement these tasks with the `tlc-spec-driven` skill: **activate it by name an
 
 **Spec**: `.specs/features/opportunity-watch/spec.md`
 **Design**: `.specs/features/opportunity-watch/design.md`
-**Status**: Draft
+**Status**: Approved (2026-09-30; user commits manually after each phase)
 
 **Layout (decided 2026-09-22)**: every module lives in `src/opportunity_watch/` (`design.md` component locations match); tests live in `tests/test_<module>.py`; dependencies and tool config live in `pyproject.toml`, managed with `uv`.
 
@@ -108,8 +108,8 @@ T19
 
 **Done when**:
 
-- [ ] `uv sync` succeeds and creates `uv.lock`
-- [ ] Scaffold gate passes
+- [x] `uv sync` succeeds and creates `uv.lock`
+- [x] Scaffold gate passes
 
 **Tests**: none (scaffold - matrix says build gate only)
 **Gate**: scaffold
@@ -132,8 +132,8 @@ T19
 
 **Done when**:
 
-- [ ] Every field in `design.md` Data Models is present with the same name and type
-- [ ] Scaffold gate passes
+- [x] Every field in `design.md` Data Models is present with the same name and type
+- [x] Scaffold gate passes
 
 **Tests**: none (entity - matrix says build gate only)
 **Gate**: scaffold
