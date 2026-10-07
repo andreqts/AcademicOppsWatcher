@@ -1,0 +1,12 @@
+queries:
+  # UNILA - federal, single campus (Foz do Iguaçu)
+  - 'site:unila.edu.br "professor substituto"'
+  - 'site:unila.edu.br "concurso público" "magistério superior"'
+  # IFPR - federal, multi-campus: temporary (PSS/substituto) and permanent (EBTT career)
+  - 'site:ifpr.edu.br "processo seletivo simplificado"'
+  - 'site:ifpr.edu.br "professor substituto" "Foz do Iguaçu"'
+  - 'site:ifpr.edu.br "concurso público" "EBTT" "Foz do Iguaçu"'
+  # UNIOESTE - state (Paraná), multi-campus: temporary = PSS / professor colaborador, permanent = concurso público docentes
+  - 'site:unioeste.br "processo seletivo simplificado" professor "Foz do Iguaçu"'
+  - 'site:unioeste.br "professor colaborador" "Foz do Iguaçu"'
+  - 'site:unioeste.br "concurso público" docentes "Foz do Iguaçu"'

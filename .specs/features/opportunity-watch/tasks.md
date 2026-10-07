@@ -158,8 +158,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests cover: missing required secret raises `ConfigError` naming the variable but never its value; address list with blank lines/whitespace; unset address list returns `[]`; queries file parsed; malformed YAML raises; `JEV_MODEL` override and default (P2a-AC1, P2a-AC2, P2b-AC4)
-- [ ] Quick gate passes; test count only grows
+- [x] Unit tests cover: missing required secret raises `ConfigError` naming the variable but never its value; address list with blank lines/whitespace; unset address list returns `[]`; queries file parsed; malformed YAML raises; `JEV_MODEL` override and default (P2a-AC1, P2a-AC2, P2b-AC4)
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -182,8 +182,8 @@ T19
 
 **Done when**:
 
-- [ ] Test asserts the shipped file parses, is non-empty and every query starts with `site:` (P2a-AC1, P2a-AC3)
-- [ ] Quick gate passes; test count only grows
+- [x] Test asserts the shipped file parses, is non-empty and every query starts with `site:` (P2a-AC1, P2a-AC3)
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
