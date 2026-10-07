@@ -2,3 +2,9 @@
 .tlc/
 .agents/.skill-lock.json.backup
 .claude/settings.local.json
+
+# python
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
