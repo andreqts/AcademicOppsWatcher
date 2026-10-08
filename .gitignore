@@ -2,6 +2,7 @@
 .tlc/
 .agents/.skill-lock.json.backup
 .claude/settings.local.json
+HANDOFF.md
 
 # python
 .venv/
