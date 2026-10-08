@@ -38,7 +38,7 @@ class ValidationResult:
 # dataclass field without a default cannot follow one with a default.
 @dataclass
 class FailureRecord:
-    type: Literal["search", "validation", "email", "config"]
+    type: Literal["search", "validation", "email", "config", "unexpected"]
     # invariant: never an email address (AD-001).
     target: str
     message: str

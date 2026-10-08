@@ -1,0 +1,48 @@
+name: opportunity-watch
+
+on:
+  schedule:
+    # why: 11:00 UTC is 08:00 in Brasília (UTC-3, no DST since 2019).
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: opportunity-watch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v10.2.0
+
+      - name: Install dependencies
+        run: uv sync --frozen --no-dev
+
+      - name: Run opportunity watch
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          OPPORTUNITY_RECIPIENTS: ${{ secrets.OPPORTUNITY_RECIPIENTS }}
+          MAINTAINER_ALERTS: ${{ secrets.MAINTAINER_ALERTS }}
+          JEV_MODEL: ${{ vars.JEV_MODEL }}
+        run: uv run --frozen --no-dev python -m opportunity_watch.run
+
+      - name: Commit state and report if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/seen.json README.md
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(data): update open opportunities"
+          git push

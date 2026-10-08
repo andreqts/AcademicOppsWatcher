@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pytest
 
 from opportunity_watch import report
@@ -74,3 +76,17 @@ def test_bad_markers_raise_report_error(tmp_path, text):
     with pytest.raises(report.ReportError):
         report.update_readme(str(path), "- x")
     assert path.read_text() == text
+
+
+def test_real_readme_has_markers_once_and_keeps_outside_text(tmp_path):
+    real = Path(__file__).resolve().parents[1] / "README.md"
+    copy = tmp_path / "README.md"
+    copy.write_text(real.read_text(encoding="utf-8"), encoding="utf-8")
+    original = copy.read_text(encoding="utf-8")
+    report.update_readme(str(copy), "- [Edital](https://unila.edu.br/x) - unila.edu.br")
+    updated = copy.read_text(encoding="utf-8")
+    assert updated.count(report.START_MARKER) == 1
+    assert updated.count(report.END_MARKER) == 1
+    assert updated.split(report.START_MARKER)[0] == original.split(report.START_MARKER)[0]
+    assert updated.split(report.END_MARKER)[1] == original.split(report.END_MARKER)[1]
+    assert "https://unila.edu.br/x" in updated

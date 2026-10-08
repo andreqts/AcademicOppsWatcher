@@ -477,8 +477,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit test in `tests/test_report.py` runs `update_readme` on a copy of the real `README.md`: both markers appear exactly once and content outside them is unchanged
-- [ ] Quick gate passes; test count only grows
+- [x] Unit test in `tests/test_report.py` runs `update_readme` on a copy of the real `README.md`: both markers appear exactly once and content outside them is unchanged
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -501,8 +501,8 @@ T19
 
 **Done when**:
 
-- [ ] Integration tests with all I/O faked and real files in `tmp_path`, one per diagram branch: clean run with new items (README, `seen.json`, one email, exit 0); no pending (not yet notified) items gives no email (P1-AC11); a previous send failed and nothing is newly discovered today, so the pending items are emailed and then marked `notified` (P1-AC9, P1-AC23); per-query failure (failure report sent, no miss counted, P1-AC21); Jev degraded (item reported and failure report sent, P1-AC19); degraded false positive (stored as `false_positive`, not reported, failure report still sent); both validators fail (item excluded, not stored, retried next run, P1-AC7); new-opportunity email fails (items stay un-notified, failure report sent, P1-AC23, P2b-AC1); failure plus new items gives two separate emails (P2b-AC5); clean run sends no failure report (P2b-AC2); exception after secrets gives a failure report, a summary line and a non-zero exit (P2b-AC6, P3-AC2); missing secret exits non-zero with no email attempt (P2b-AC7); summary line has every P1-AC18 count; no address in captured output (AD-001); running the module in a subprocess returns the expected exit code
-- [ ] Full gate passes; test count only grows
+- [x] Integration tests with all I/O faked and real files in `tmp_path`, one per diagram branch: clean run with new items (README, `seen.json`, one email, exit 0); no pending (not yet notified) items gives no email (P1-AC11); a previous send failed and nothing is newly discovered today, so the pending items are emailed and then marked `notified` (P1-AC9, P1-AC23); per-query failure (failure report sent, no miss counted, P1-AC21); Jev degraded (item reported and failure report sent, P1-AC19); degraded false positive (stored as `false_positive`, not reported, failure report still sent); both validators fail (item excluded, not stored, retried next run, P1-AC7); new-opportunity email fails (items stay un-notified, failure report sent, P1-AC23, P2b-AC1); failure plus new items gives two separate emails (P2b-AC5); clean run sends no failure report (P2b-AC2); exception after secrets gives a failure report, a summary line and a non-zero exit (P2b-AC6, P3-AC2); missing secret exits non-zero with no email attempt (P2b-AC7); summary line has every P1-AC18 count; no address in captured output (AD-001); running the module in a subprocess returns the expected exit code
+- [x] Full gate passes; test count only grows
 
 **Tests**: integration
 **Gate**: full
@@ -525,9 +525,9 @@ T19
 
 **Done when**:
 
-- [ ] YAML parses (`uv run python -c "import yaml; yaml.safe_load(open('.github/workflows/opportunity-watch.yml'))"`) and contains the cron, dispatch, concurrency and commit-if-changed steps (P1-AC1, P1-AC15, P1-AC17)
-- [ ] No step echoes a secret or an address (AD-001)
-- [ ] Build gate passes
+- [x] YAML parses (`uv run python -c "import yaml; yaml.safe_load(open('.github/workflows/opportunity-watch.yml'))"`) and contains the cron, dispatch, concurrency and commit-if-changed steps (P1-AC1, P1-AC15, P1-AC17)
+- [x] No step echoes a secret or an address (AD-001)
+- [x] Build gate passes
 
 **Tests**: none (workflow YAML - matrix says build gate only; its behavior is verified live in T19)
 **Gate**: build

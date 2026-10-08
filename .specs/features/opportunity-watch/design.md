@@ -206,7 +206,7 @@ class ValidationResult:
 
 @dataclass
 class FailureRecord:
-    type: Literal["search", "validation", "email", "config"]
+    type: Literal["search", "validation", "email", "config", "unexpected"]  # "unexpected": run.main top-level catch (P2b-AC6), added 2026-10-08
     target: str          # query text or candidate url - never an email address
     message: str
     excluded: bool = False  # validation only: True = candidate dropped this run, False = recovered via fallback
