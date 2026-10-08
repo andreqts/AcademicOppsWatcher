@@ -8,26 +8,29 @@ In every session, check the user's preferences in the mnemosyne memory server on
 
 ## Status
 
-Planning only — no application code, dependencies, tests, or workflow YAML exist yet. The source of truth is `.specs/`:
+T1–T18 are implemented: the package is in `src/opportunity_watch/`, tests in `tests/`, and the workflow in `.github/workflows/opportunity-watch.yml`. T19, the live `workflow_dispatch` end-to-end run, is still pending; it needs the user's Gmail account, App Password and repo secrets. The specs are the source of truth:
 
 - `.specs/features/opportunity-watch/spec.md` — requirements (OPW-01..11, EARS acceptance criteria `P1-ACn`, `P2a-ACn`, `P2b-ACn`, `P3-ACn`)
 - `.specs/features/opportunity-watch/context.md` — decisions from the requirements interview (and why alternatives were rejected)
 - `.specs/features/opportunity-watch/design.md` — module interfaces, data models, error-handling table, risks
 - `.specs/STATE.md` — project-wide decisions (`AD-nnn`) that bind every feature
 
-Work follows the `tlc-spec-driven` skill (Specify → Design → Tasks → Execute). Specify and Design are done; Tasks is next.
+Work follows the `tlc-spec-driven` skill (Specify → Design → Tasks → Execute), now in Execute. The Verifier's report is `.specs/features/opportunity-watch/validation.md`. The user commits by hand, one commit per phase; never commit or push for them.
 
 ## Spec tooling
 
-The validators must be run from the skill directory, not the repo root:
+Run the validators from the repo root:
 
 ```bash
-cd .claude/skills/tlc-spec-driven
-python3 scripts/validate_spec.py  ../../../.specs/features/opportunity-watch/spec.md
-python3 scripts/validate_tasks.py ../../../.specs/features/opportunity-watch/tasks.md
-python3 scripts/validate_state.py
-python3 scripts/check_commit.py --message "feat(state): add stale removal"   # Conventional Commits check
+python3 .claude/skills/tlc-spec-driven/scripts/validate_spec.py  .specs/features/opportunity-watch/spec.md
+python3 .claude/skills/tlc-spec-driven/scripts/validate_tasks.py .specs/features/opportunity-watch/tasks.md
+python3 .claude/skills/tlc-spec-driven/scripts/validate_state.py opportunity-watch   # "done" gate: needs validation.md with a PASS verdict
+python3 .claude/skills/tlc-spec-driven/scripts/check_commit.py --message "feat(state): add stale removal"   # Conventional Commits check
 ```
+
+hazard: `validate_state.py` looks for `.specs/` under the current directory. Run from the skill directory, it finds nothing and still reports "0 error(s)", a false pass.
+
+Code gates: `uv run ruff check . && uv run ruff format --check . && uv run pytest -q`.
 
 Run `validate_spec.py` after every spec edit. Adding an acceptance criterion in the middle of a list renumbers the rest and breaks cross-references such as `P1-AC17`, so add new ACs at the end of the list or grep for `P1-AC`/`P2a-AC`/`P2b-AC` afterwards.
 
