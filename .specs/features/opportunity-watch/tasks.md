@@ -208,8 +208,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests: equivalent URLs (case, fragment, tracking params, trailing slash) give the same id; different paths give different ids (P1-AC8, edge case "same URL from two queries")
-- [ ] Quick gate passes; test count only grows
+- [x] Unit tests: equivalent URLs (case, fragment, tracking params, trailing slash) give the same id; different paths give different ids (P1-AC8, edge case "same URL from two queries")
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -232,8 +232,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests: first-run missing file gives an empty store and every id is unseen (edge case "first-ever run"); save/load round-trip preserves every field; `diff_new` excludes both genuine and false-positive entries (P1-AC4)
-- [ ] Quick gate passes; test count only grows
+- [x] Unit tests: first-run missing file gives an empty store and every id is unseen (edge case "first-ever run"); save/load round-trip preserves every field; `diff_new` excludes both genuine and false-positive entries (P1-AC4)
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -256,8 +256,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests, one per rule: false positive stored and never in the open set (P1-AC5); absent 3 counted runs leaves the open set (P1-AC13); `count_misses=False` never increments `miss_count` (P1-AC21); purge only after 30 days since `last_seen` (P1-AC14); reappearing id returns to the open set with `miss_count` 0 and `notified` unchanged (P1-AC22); an already-seen id in `found_ids` keeps its stored `verdict` and `notified` (a stored `false_positive` is never overwritten)
-- [ ] Quick gate passes; test count only grows
+- [x] Unit tests, one per rule: false positive stored and never in the open set (P1-AC5); absent 3 counted runs leaves the open set (P1-AC13); `count_misses=False` never increments `miss_count` (P1-AC21); purge only after 30 days since `last_seen` (P1-AC14); reappearing id returns to the open set with `miss_count` 0 and `notified` unchanged (P1-AC22); an already-seen id in `found_ids` keeps its stored `verdict` and `notified` (a stored `false_positive` is never overwritten)
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -280,8 +280,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests: pending excludes false positives, stale entries and notified entries (P1-AC9); after `mark_notified` the ids are no longer pending (P1-AC23); ids not marked stay pending on the next load (retry after failed send)
-- [ ] Build gate passes (end of phase); test count only grows
+- [x] Unit tests: pending excludes false positives, stale entries and notified entries (P1-AC9); after `mark_notified` the ids are no longer pending (P1-AC23); ids not marked stay pending on the next load (retry after failed send)
+- [x] Build gate passes (end of phase); test count only grows
 
 **Tests**: unit
 **Gate**: build
