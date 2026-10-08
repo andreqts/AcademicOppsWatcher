@@ -306,8 +306,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests with a fake `DDGS`: fields extracted (P1-AC2); result missing title or URL dropped, rest kept (P1-AC3); one query raising produces one `FailureRecord` and the other queries still run (edge case "backend errors"); zero results is not a failure (edge case)
-- [ ] Quick gate passes; test count only grows
+- [x] Unit tests with a fake `DDGS`: fields extracted (P1-AC2); result missing title or URL dropped, rest kept (P1-AC3); one query raising produces one `FailureRecord` and the other queries still run (edge case "backend errors"); zero results is not a failure (edge case)
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -330,9 +330,9 @@ T19
 
 **Done when**:
 
-- [ ] Endpoint, schema and model id verified against live `openrouter.ai` docs; the evidence (URL + date) is written into `design.md` Risks, replacing the "unconfirmed" note
-- [ ] Unit tests with a fake HTTP layer: request body contains the P1-AC20 question verbatim and the configured model; yes above threshold is genuine, below is false positive; HTTP error, timeout and malformed JSON each raise `JevCallError` (P1-AC6 trigger conditions)
-- [ ] Quick gate passes; test count only grows
+- [x] Endpoint, schema and model id verified against live `openrouter.ai` docs; the evidence (URL + date) is written into `design.md` Risks, replacing the "unconfirmed" note
+- [x] Unit tests with a fake HTTP layer: request body contains the P1-AC20 question verbatim and the configured model; yes above threshold is genuine, below is false positive; HTTP error, timeout and malformed JSON each raise `JevCallError` (P1-AC6 trigger conditions)
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -355,8 +355,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests: model is exactly `openrouter/free` and never `openrouter/auto` or a paid id (P1-AC6); yes/no parsed; error, timeout and unusable answer raise `ValidationFailed` (P1-AC7)
-- [ ] Quick gate passes; test count only grows
+- [x] Unit tests: model is exactly `openrouter/free` and never `openrouter/auto` or a paid id (P1-AC6); yes/no parsed; error, timeout and unusable answer raise `ValidationFailed` (P1-AC7)
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -366,7 +366,7 @@ T19
 
 #### T12: Implement classify
 
-**What**: `classify(candidate) -> tuple[ValidationResult, list[FailureRecord]]` (signature in `design.md`): Jev first; on `JevCallError` the fallback plus a degraded `FailureRecord(excluded=False)`; when both fail, verdict `failed` plus `FailureRecord(excluded=True)`.
+**What**: `classify(candidate, snippet) -> tuple[ValidationResult, list[FailureRecord]]` (signature in `design.md`; the snippet reaches both Jev's `state` and the fallback prompt): Jev first; on `JevCallError` the fallback plus a degraded `FailureRecord(excluded=False)`; when both fail, verdict `failed` plus `FailureRecord(excluded=True)`.
 **Where**: `src/opportunity_watch/validate.py`
 **Depends on**: T11
 **Reuses**: `_call_jev` (T10), `_call_free_fallback` (T11)
@@ -379,8 +379,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests for all five paths: Jev genuine; Jev false positive; Jev fails and fallback says genuine (verdict `genuine`, `method="free_fallback"`, degraded failure recorded, P1-AC19); Jev fails and fallback says false positive (verdict `false_positive`, degraded failure still recorded); both fail (verdict `failed`, excluded failure recorded, P1-AC7)
-- [ ] Quick gate passes; test count only grows
+- [x] Unit tests for all five paths: Jev genuine; Jev false positive; Jev fails and fallback says genuine (verdict `genuine`, `method="free_fallback"`, degraded failure recorded, P1-AC19); Jev fails and fallback says false positive (verdict `false_positive`, degraded failure still recorded); both fail (verdict `failed`, excluded failure recorded, P1-AC7)
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -403,8 +403,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests: content outside the markers is byte-identical; an empty set renders an explicit "no open opportunities" line; unchanged input returns `False` (P1-AC12, P1-AC15); missing markers raise a clear error
-- [ ] Quick gate passes; test count only grows
+- [x] Unit tests: content outside the markers is byte-identical; an empty set renders an explicit "no open opportunities" line; unchanged input returns `False` (P1-AC12, P1-AC15); missing markers raise a clear error
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -427,8 +427,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests with a fake `SMTP_SSL`: To header is the sender; no recipient address appears in any header; every recipient is in the envelope recipients (P1-AC10, P2b-AC8); an SMTP exception propagates as a typed error; no address appears in captured stdout/stderr (AD-001)
-- [ ] Quick gate passes; test count only grows
+- [x] Unit tests with a fake `SMTP_SSL`: To header is the sender; no recipient address appears in any header; every recipient is in the envelope recipients (P1-AC10, P2b-AC8); an SMTP exception propagates as a typed error; no address appears in captured stdout/stderr (AD-001)
+- [x] Quick gate passes; test count only grows
 
 **Tests**: unit
 **Gate**: quick
@@ -451,8 +451,8 @@ T19
 
 **Done when**:
 
-- [ ] Unit tests: one email listing only the given items (P1-AC10); no items or empty list means no send and no failure (P1-AC11, edge cases); failure report lists type, target and message for each failure (P2b-AC3); send error is returned as `NotifyResult.failure` (not raised) with no address in it (P1-AC16, P3-AC1, AD-001)
-- [ ] Build gate passes (end of phase); test count only grows
+- [x] Unit tests: one email listing only the given items (P1-AC10); no items or empty list means no send and no failure (P1-AC11, edge cases); failure report lists type, target and message for each failure (P2b-AC3); send error is returned as `NotifyResult.failure` (not raised) with no address in it (P1-AC16, P3-AC1, AD-001)
+- [x] Build gate passes (end of phase); test count only grows
 
 **Tests**: unit
 **Gate**: build
@@ -488,7 +488,7 @@ T19
 
 #### T17: Implement the orchestrator
 
-**What**: `run.main()` following the `design.md` diagram: secrets loaded outside the try; everything after inside one `try/except` that best-effort sends the failure report, prints the partial summary and re-raises; `count_misses` false when any search failed; `seen.json` saved after the send so `notified` persists; failure report checked last; `RunSummary` printed with counts only. Entry point `python -m opportunity_watch.run` through `if __name__ == "__main__": raise SystemExit(main())`, so the returned code becomes the process exit code. Builds `found_ids` from all deduped results and passes only freshly classified entries as `new_candidates`; appends each `NotifyResult.failure` to the run's failures.
+**What**: `run.main()` following the `design.md` diagram: secrets loaded outside the try; everything after inside one `try/except` that best-effort sends the failure report, prints the partial summary and re-raises; `count_misses` false when any search failed; `seen.json` saved after the send so `notified` persists; failure report checked last; `RunSummary` printed with counts only. Entry point `python -m opportunity_watch.run` through `if __name__ == "__main__": raise SystemExit(main())`, so the returned code becomes the process exit code. Builds `found_ids` from all deduped results and passes only freshly classified entries as `new_candidates`; calls `classify(candidate, raw.body)` with the snippet of the first result seen for that id in this run; appends each `NotifyResult.failure` to the run's failures.
 **Where**: `src/opportunity_watch/run.py`
 **Depends on**: T16
 **Reuses**: every module from T3-T15

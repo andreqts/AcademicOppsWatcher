@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from datetime import UTC, datetime
 from typing import Literal
 
 
@@ -61,3 +62,7 @@ class NotifyResult:
     sent_to: int
     skipped: bool
     failure: FailureRecord | None
+
+
+def utc_timestamp() -> str:
+    return datetime.now(UTC).isoformat(timespec="seconds")

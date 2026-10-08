@@ -2,7 +2,7 @@ import os
 
 import yaml
 
-DEFAULT_JEV_MODEL = "typesafe/jev-latest"
+DEFAULT_JEV_MODEL = "~typesafe/jev-latest"
 
 
 class ConfigError(Exception):

@@ -50,7 +50,7 @@ def test_load_queries_malformed_yaml_raises(tmp_path):
 
 def test_jev_model_default(monkeypatch):
     monkeypatch.delenv("JEV_MODEL", raising=False)
-    assert config.jev_model() == "typesafe/jev-latest"
+    assert config.jev_model() == "~typesafe/jev-latest"
 
 
 def test_jev_model_override(monkeypatch):
