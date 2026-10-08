@@ -91,6 +91,13 @@ def test_jev_probability_above_threshold_is_genuine(posts):
     )
 
 
+def test_jev_probability_exactly_at_threshold_is_genuine(posts):
+    posts[1][validate.DECISIONS_URL] = jev_reply(0.5)
+    assert validate._call_jev(CANDIDATE, SNIPPET) == validate.JevAnswer(
+        genuine=True, probability=0.5
+    )
+
+
 def test_jev_probability_below_threshold_is_false_positive(posts):
     posts[1][validate.DECISIONS_URL] = jev_reply(0.49)
     assert validate._call_jev(CANDIDATE, SNIPPET) == validate.JevAnswer(

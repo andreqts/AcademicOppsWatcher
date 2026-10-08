@@ -211,7 +211,7 @@ def test_retry_after_failed_send_emails_pending_items_and_marks_them(world):
     assert world.seen()[stored(1).id]["notified"] is True
 
 
-def test_query_failure_sends_report_and_counts_no_miss(world):
+def test_query_failure_sends_report_and_counts_no_miss(world, capsys):
     world.seed(stored(9, notified=True, miss_count=2))
     world.hits[Q1] = RatelimitException("202 Ratelimit")
     assert run.main() == 0
@@ -219,6 +219,11 @@ def test_query_failure_sends_report_and_counts_no_miss(world):
     assert url(9) in world.readme()
     (alert,) = world.emails_to(MAINTAINERS)
     assert "type: search" in alert["body"] and f"target: {Q1}" in alert["body"]
+    out = capsys.readouterr().out
+    assert (
+        f"failure: type=search excluded=False target={Q1} error=RatelimitException: 202 Ratelimit"
+        in out
+    )
 
 
 def test_clean_run_absence_counts_a_miss(world):

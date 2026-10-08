@@ -134,6 +134,13 @@ def test_failure_report_skips_without_failures_or_maintainers(smtp, failures, ma
     assert sent == []
 
 
+def test_empty_maintainer_list_logs_a_warning_without_addresses(smtp, capsys):
+    notify.send_failure_report([FailureRecord("search", "q", "e", "t")], [])
+    out = capsys.readouterr().out
+    assert "warning: maintainer list is empty; failure report with 1 items skipped" in out
+    assert_no_address(out)
+
+
 def test_send_error_is_returned_as_failure_without_address(smtp, capsys):
     _, state = smtp
     state["error"] = smtplib.SMTPAuthenticationError(535, b"bad credentials")
