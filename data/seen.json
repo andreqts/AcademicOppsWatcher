@@ -1,3 +1,494 @@
 {
-  "opportunities": {}
+  "opportunities": {
+    "0fa2f9a651b119be6c1075d2e73bb12b3c29d482eb28392b9b6d5a3339b765bf": {
+      "title": "Concurso Público Docentes – Instituto Federal do Paraná",
+      "url": "https://ifpr.edu.br/trabalhe-no-ifpr/concursos-publicos/concursos-publicos-docentes/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "1627cf25cb76b004421efed772ef2386e7e6a322c0fc8d61b5ff32c8710dbb49": {
+      "title": "33º Concurso Público para Docentes-CCSA Campus Foz do Iguaçu ...",
+      "url": "https://www.unioeste.br/portal/interno/docentes-concursos/52932-33-concurso-publico-para-docentes-ccsa-campus-foz-do-iguacu-novas-provas",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "172dd96612986c105a16ad1f07cfddfb41f57e1d0ad7e9643291438b73f56d77": {
+      "title": "SIGRH - Sistema Integrado de Gestão de Recursos Humanos",
+      "url": "https://sig.unila.edu.br/sigrh/public/home.jsf",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "18e7c66101043d1c4721ddb697fdf9f9b57703353b17368aadf574b767b4fc07": {
+      "title": "EM ANDAMENTO - Unioeste",
+      "url": "https://concursos.unioeste.br/?action=andamento",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "1c6534671ef58f1834b32ea82e2975aba37af8c8cb99b6a0df08483e96567115": {
+      "title": "CURSO PREPARATÓRIO PARA CONCURSO PÚBLICO PROFESSOR MUNICIPAL",
+      "url": "https://midas.unioeste.br/sgev/eventos/cursopreparatorioconcurso",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "1e0cf72afde680fe073b6344bcaa46937404791687f273a5679d5ebcecbcca79": {
+      "title": "Processo Seletivo Simplificado - Professor (a) Substituto ...",
+      "url": "https://portal.unila.edu.br/concursos/informes-concursos/processo-seletivo-simplificado-professor-a-substituto-area-saude-coletiva-subarea-saude-coletiva",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "29c6c05720dd8a24e5fdccfb9ddcdeca72e161caf3490ece3fb19e0dc87de921": {
+      "title": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ - UNIOESTE-PARANÁ",
+      "url": "https://concursos.unioeste.br/concursos/publicacoes/UNIVERSIDADE+ESTADUAL+DO+OESTE+DO+PARANÁ+-++UNIOESTE/130",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "2a96343ed49a80dcb747f582d0ee58a879e249b52c6bf4d9ada7ca1e61453364": {
+      "title": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ - UNIOESTE-PARANÁ",
+      "url": "https://concursos.unioeste.br/concursos/publicacoes/UNIVERSIDADE+ESTADUAL+DO+OESTE+DO+PARANÁ+-++UNIOESTE/164",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "2bdd1feedc7cd6d424bd3248cc29dbb035668812ca49a2a80fc4d8290cb4e98f": {
+      "title": "Edital 18/2026 – ADMINISTRAÇÃO – Processo Seletivo Simplificado.",
+      "url": "https://ifpr.edu.br/assis-chateaubriand/menu-institucional/gt-pessoas/editais/concursos/editais-de-concursos-2026/edital-18-2026-administracao-processo-seletivo-simplificado/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "2e9423743d4977deedd760aed9d6ee135ae4a3e39fb29e9fcb9cd7e12e471782": {
+      "title": "FUNDAÇÃO MUNICIPAL DE SAÚDE DE FOZ DO IGUAÇU DEPARTAMENTO DE ...",
+      "url": "https://www5.unioeste.br/cogeps/arquivos/concursos/externo/2018/foz/070.pdf",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "2f0268e5d4d97fae5022403eff1aedf07d89b23f29ea1bf60cbb07f30f46d113": {
+      "title": "Docentes Concursos - Unioeste",
+      "url": "https://www.unioeste.br/portal/interno/docentes-concursos",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "2f7158516284ec5befa17de5729b2da9cbb5844e635615f843bf73fbbc62f1cd": {
+      "title": "Processo Seletivo Simplificado (PSS) – Campus Jaguariaíva",
+      "url": "https://ifpr.edu.br/jaguariaiva/processo-seletivo-simplificado-pss/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "360c98ec23b7edda8dde9ee508c4c13c4148c716f993b6c0d7926adfe676fcae": {
+      "title": "Contratação de Professor Temporário - Substituto e/ou ...",
+      "url": "https://portal.unila.edu.br/progepe/areas-da-gestao-de-pessoas/pessoal/contratacao-professor-substituto-e-visitante",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "42f6771aabbc59175eb6d5b341c9c2148d8ffac6a587a954092c5dac85ca2724": {
+      "title": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ - UNIOESTE-PARANÁ",
+      "url": "https://concursos.unioeste.br/concursos/publicacoes/UNIVERSIDADE+ESTADUAL+DO+OESTE+DO+PARANÁ+-++UNIOESTE/148",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "4dac7b920f8225d11dbbc531326dad0fd34f26603eb3065d331e30631e778edb": {
+      "title": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ CAMPUS DE FOZ DO ...",
+      "url": "https://tede.unioeste.br/bitstream/tede/8207/2/Andréa_Carolina_Bernal_Mazacotte_2025.pdf",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "5244cc5319862cdd957149e6f38bf1dbff266511c40d1120cdb1bfa8364367a6": {
+      "title": "IFPR abre concurso público com mais de 180 vagas para ...",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/ifpr-abre-concurso-publico-com-mais-de-180-vagas-para-tecnicos-e-docentes/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "561c18f4f0db629ebdd167b5ef29b5950f15780d5146bc2f8970c68107a174b4": {
+      "title": "Processo Seletivo IFPR 2027",
+      "url": "https://ifpr.edu.br/processo-seletivo/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "60f29ebfe9e1c6e2e403262872b8adbb5ffffccc5e1f27afc6298dfc19ae5c02": {
+      "title": "Concursos Públicos - Universidade Federal da Integração ...",
+      "url": "https://portal.unila.edu.br/concursos",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "6453d055f6f295324487cbb31734e6abdba2810e14905eec6207629bbd8e2738": {
+      "title": "Concurso Público Magistério Superior - Professor Efetivo ...",
+      "url": "https://documentos.unila.edu.br/concursos/204-2023",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "664a7e8d2d82202afa01a0727b8165976459f0623a5822269354ba4b3ca8b534": {
+      "title": "Portal do Candidato - IFPR",
+      "url": "https://portaldocandidato.ifpr.edu.br/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "7009f20cebe3e1989000114449e5cd451fa1fadf713b3db5469cb9af4808760b": {
+      "title": "Processo Seletivo Simplificado - Professor (a) Substituto ...",
+      "url": "https://documentos.unila.edu.br/concursos/223-2026",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "7c32dca94004967fb86d046d95289e16c0d2472bcc8ee218325bc5ee63e15e69": {
+      "title": "PSS – Professor Substituto – Campus Foz do Iguaçu",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/pss-professor-substituto/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "7ca5253e78294197d53203a8e551abe5300e91b0ba1b1ddca0af2ff2f0bc6779": {
+      "title": "Unioeste",
+      "url": "https://concursos.unioeste.br/",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "861b43b004cf8670de7801ceb516a18c294b8ee9b8e0f8d409bb44d9a599334b": {
+      "title": "Processo Seletivo Simplificado - Professor (a) Substituto ...",
+      "url": "https://documentos.unila.edu.br/concursos/193-2026",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "8b3ca6db44673bd5781dc1684186b621bc21586209f34bc8747afc7b9766e804": {
+      "title": "EDITAL N°77, DE 15 DE ABRIL DE 2026 PROCESSO SELETIVO ...",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/wp-content/uploads/sites/12/2026/04/SEI_4158291_Edital_77.pdf",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "904b8b82230a0c12c41b7c6dffc775a37a4c800591863f76fa2d784685f9a226": {
+      "title": "Unioeste abre inscrições para Processo Seletivo Simplificado",
+      "url": "https://www.unioeste.br/portal/central-de-noticias/77795-unioeste-abre-inscricoes-para-processo-seletivo-simplificado",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "95e126be761a57eeef9857a4bfe83a046e6c4fe178c07ce69da523ad2cc1fe70": {
+      "title": "Concurso Público Magistério Superior - Professor Efetivo ...",
+      "url": "https://documentos.unila.edu.br/concursos/331-2023",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "9b9d383993479fbc017a71e985d52a4eef146049199c7f0cfb4e919c3b1992eb": {
+      "title": "PSS PROFESSOR SUBSTITUTO – Campus Foz do Iguaçu",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/tag/pss-professor-substituto/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "a2110b122835954eb6496d01d034e5e37d299ed975a5ce75526b3f7331391443": {
+      "title": "EDITAL N°119, DE 08 DE SETEMBRO DE 2025 PROCESSO SELETIVO ...",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/wp-content/uploads/sites/12/2025/09/SEI_3789553_Edital_119.pdf",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "a5872735229517d3d0f9d60f7235c420243a86945de9f937e7df5899a0b6c4c8": {
+      "title": "PSS - Processo Seletivo - Unioeste",
+      "url": "https://www.unioeste.br/portal/cogeps/concursos/docentes/734-internos/735-correntes/736-pss-processo-seletivo",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "ab197389fd924751251b3898becc8376eddddc23ba46655b3de79b2c19497e77": {
+      "title": "Docentes - Unioeste",
+      "url": "https://www.unioeste.br:8443/portal/cogeps/concursos/docentes",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "b1ab31f095141ecf68d865e8784e4195cede0e8d4caf55eb0ec7009ff258decc": {
+      "title": "Processo Seletivo Simplificado para contratação de ...",
+      "url": "https://ifpr.edu.br/colombo/processo-seletivo-simplifcado/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "b39525f65a4424505cb8f1484ce348e5706f275966da2b21af61e701879a44c4": {
+      "title": "Instituto Federal do Paraná – IFPR – É Federal, é de Graça, é ...",
+      "url": "https://ifpr.edu.br/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "b545dfda626295c257c05cb5b64c17c10bb668c71d16e7de00e63b70424f3176": {
+      "title": "Professor substituto 2024 – Campus Foz do Iguaçu",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/pss-professor-substituto/professor-substituto-2024/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "b9541d2c7a6de52bc32ad79f256f10d2cae8d667aab0fa50249985f82d78b504": {
+      "title": "Professor substituto 2025 – Campus Foz do Iguaçu",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/pss-professor-substituto/professor-substituto-2025/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "bdeee69c2555ecc8e4fa4394348bb9fc2d52e35f8f91f99b610b48acb42737a6": {
+      "title": "Processo Seletivo Simplificado - Professor (a) Substituto ...",
+      "url": "https://documentos.unila.edu.br/concursos/220-2026",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "be717605b0fba2c1f5615353fe3ef77c8dcd8949277e5ea0da24cbf9b9927ee3": {
+      "title": "Concurso Público Unificado para Professor Efetivo - Área ...",
+      "url": "https://portal.unila.edu.br/concursos/informes-concursos/concurso-publico-unificado-para-professor-efetivo-area-educacao-subarea-politica-gestao-avaliacao-educacional-e-organizacao-do-trabalho-pedagogico",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "c904e73900ab7ea5ff2cbd2c99bdcfd408c9c4dffdaef32ab0e79e103859d36a": {
+      "title": "UNILA | PORTARIA Nº 503, DE 15 DE OUTUBRO DE 2026",
+      "url": "https://atos.unila.edu.br/atos/portaria-n-ordm-503-2026-gr-23614",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "e78e06203c4c62308f5693966a2fdd71a2d952edabd07f829a66b0142b1d2e51": {
+      "title": "Atos Oficiais Unila",
+      "url": "https://atos.unila.edu.br/atos/portaria-n-ordm-297-2026-gr-22392.pdf",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "e873b964119f89de1ac9f21576d69b7fa2f2419ed03722e4da5817c3d81fd124": {
+      "title": "UNILA | INSTRUÇÃO NORMATIVA Nº 2, DE 25 DE MAIO DE 2023",
+      "url": "https://atos.unila.edu.br/atos/instrucao-normativa-n-ordm-2-2023-progepe-11157",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "efc4ca5f59069e222664fd34a66ab29f81c1b84bfc17cd7030804b76e375c0c0": {
+      "title": "Concursos Públicos – Instituto Federal do Paraná",
+      "url": "https://ifpr.edu.br/trabalhe-no-ifpr/concursos-publicos/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "f086f24236858a529b4bf5003cddf5418029f9da70203e00175ad327fa82b6d4": {
+      "title": "SEI IFPR - 3789558 - Edital",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/wp-content/uploads/sites/12/2025/09/edital-120.pdf",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "f0ab140ce223c23a85498e7e2dda1cc5efbbf2817204350e794d6a5c8c171888": {
+      "title": "professor substituto – Campus Foz do Iguaçu",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/tag/professor-substituto/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "f2335c6b430a384949f73521073ee47ddcec9172a89780f2b44e9d77774ceae1": {
+      "title": "Professor substituto 2026 – Campus Foz do Iguaçu",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/pss-professor-substituto/professor-substituto-2026/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "f5d78e6694f24b81392d51456f7dcff3bc4120b14b72b15d0d1915823ea4fb7d": {
+      "title": "Processo Seletivo Simplificado – PSS – Instituto Federal do ...",
+      "url": "https://ifpr.edu.br/trabalhe-no-ifpr/processo-seletivo-simplificado/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "f799b3be9a1bb29f891f94536c249282ad564351dab6294fc0bb7cb3d1829d7a": {
+      "title": "Edital 110/2025 – ADMINISTRAÇÃO – Processo Seletivo Simplificado.",
+      "url": "https://ifpr.edu.br/assis-chateaubriand/menu-institucional/gt-pessoas/editais/concursos/editais-de-concurso-2025/edital-110-2025-administracao-processo-seletivo-simplificado/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "f8c0eb350679566e7ad506d14b147fa39c60a7a834871746e3ec483aba94eab5": {
+      "title": "EDITAL N°87, DE 12 DE JUNHO DE 2025 PROCESSO SELETIVO ...",
+      "url": "https://ifpr.edu.br/foz-do-iguacu/wp-content/uploads/sites/12/2025/06/SEI_3640152_Edital_87.pdf",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "fa76e8524fcd173c6e06575bc7e4f4a672b2e2bd76f3b0fee7a788e38ad7fb79": {
+      "title": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ PROGRAMA DE PÓS ...",
+      "url": "https://tede.unioeste.br/bitstream/tede/4383/5/Katiuscia_Wagner_2019.pdf",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "fc433544b8cac436bfe88f5fe040745ef7e28d3bfe458a384e89f0f3f7707281": {
+      "title": "UNILA | INSTRUÇÃO NORMATIVA Nº 2, DE 01 DE AGOSTO DE 2024",
+      "url": "https://atos.unila.edu.br/atos/instrucao-normativa-n-ordm-2-2024-progepe-15231",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    }
+  }
 }
