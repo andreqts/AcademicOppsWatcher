@@ -4,6 +4,9 @@
 .claude/settings.local.json
 HANDOFF.md
 
+# local testing files
+recipients.txt
+
 # python
 .venv/
 __pycache__/
