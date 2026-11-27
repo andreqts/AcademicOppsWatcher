@@ -6,7 +6,47 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "037beced42dd1a1dbb586c6fe7ec1697c9c54285e1096bcd5d90445999a8369d": {
+      "title": "PROFESSOR Definition & Meaning - Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/professor",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "095244295b21b01b09a15cac5995f05e7772a7a110a1ce01a370232cebd2dab9": {
+      "title": "Processos Seletivos Simplificados - Prefeitura de Belo Horizonte",
+      "url": "https://prefeitura.pbh.gov.br/planejamento/gestao-de-pessoas/recrutamento-selecao/processos-seletivos-simplificados",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "0bc61768996883d9853fe5e7d37d2e88ee15d0f68974ff1bf4956e6141d5af80": {
+      "title": "Processo Seletivo Simplificado - UFPE",
+      "url": "https://www.ufpe.br/formas-de-ingresso/processo-seletivo-simplificado",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "0e0b9a3ab42021b90f55475653ac87f7f910ee898eaea5dc06d8f3e6c09a7b83": {
+      "title": "PSS - Processo Seletivo Simplificado",
+      "url": "https://pss.seduc.pa.gov.br/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -16,7 +56,17 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "15784627b733c7ab877165cb75e8a27b5f91f5221d09b5e353a4c37c3e6c0c17": {
+      "title": "Processo Seletivo - Simplificado — Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/concursos-e-selecoes/processo-seletivo-simplificado",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -26,7 +76,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -36,7 +86,7 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -46,7 +96,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -56,7 +106,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -66,7 +116,37 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "21522fc0a2219baeb051c0f5a60e059bb0d30869be22999efbe7dd1e02843e4a": {
+      "title": "RAE - ASALE - concurso | Diccionario de la lengua española",
+      "url": "https://dle.rae.es/concurso",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "251c9751017f546c761780f613adca83aa995bac34afd61fca43eb114490d583": {
+      "title": "SolidProfessor — Online Training for Engineering Design Software",
+      "url": "https://solidprofessor.com/",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "2796eed02282cb1472dbb5b422ab3afe28ac95af4d254e7234de24eeb25b9ff1": {
+      "title": "Consulta pública · Processo Judicial Eletrônico - 1º Grau",
+      "url": "https://pje-consulta-publica.tjmg.jus.br/",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -76,7 +156,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -86,7 +166,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -96,7 +176,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -106,7 +186,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -116,7 +196,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -126,7 +206,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -136,7 +216,27 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "3836fc6b4b94cded00e127a5f9f750f52f35a63eb045fd68149147c4e8790b51": {
+      "title": "Concursos Abertos em todo o Brasil",
+      "url": "https://concursosnobrasil.com/concursos/",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "3d39958793b43557d644c87c1fc139d3331f0b2820f0dd130cbd08a729068003": {
+      "title": "CONCURSO Definition & Meaning - Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/concurso",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -146,7 +246,27 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "47d7dcd58f67df153ea0a8d7b8cee66f3d2f5fcf47a7b1d70a18ddd7765884be": {
+      "title": "CONCURSO in English - Cambridge Dictionary",
+      "url": "https://dictionary.cambridge.org/dictionary/spanish-english/concurso",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "48182fcc74306a87c8ad8b9d95a56462cd7ace352ca90e768d3d63fce1e2d686": {
+      "title": "Rate My Professors",
+      "url": "https://www.ratemyprofessors.com/",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -156,7 +276,17 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "4f1680eb2ea2e6e6498425911fd54b2a5ebbba48df1d42a79494e0084876741d": {
+      "title": "Sistema de Consulta Processual Unificada - SCPU",
+      "url": "https://consultaprocesso.tjce.jus.br/scpu-web/pages/administracao/consultaProcessual.jsf?pesquisaparte",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -166,7 +296,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -176,7 +306,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -186,7 +316,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -196,7 +326,27 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "5df3327e340b75fd6796d7819d02a1e7df47e526fdec555faa10d25d5c25636c": {
+      "title": "Consulta Processual - TJPE",
+      "url": "https://portal.tjpe.jus.br/servicos/consulta-processual",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "5e1ff7badc9c366365a929482bb54918c7660c316545d49f40824decfa498600": {
+      "title": "Home - Professor Messer IT Certification Training - CompTIA ...",
+      "url": "https://www.professormesser.com/",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -206,7 +356,7 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -216,7 +366,17 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "6609ed0ada7b8eccfc8adda4c38f47a95d549c864fcb4a524c31050e25713687": {
+      "title": "Processo Seletivo Simplificado - PSS — HU Brasil",
+      "url": "https://www.gov.br/hubrasil/pt-br/acesso-a-informacao/agentes-publicos/concursos-e-selecoes/selecoes/processos-seletivos/processo-seletivo-simplificado-pss",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -226,7 +386,17 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "6e7784b542c222969717f508a1ec4f2b60b8cd331155c76664ea4b2e8e239945": {
+      "title": "Professor - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Professor",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -236,7 +406,7 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -246,7 +416,17 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "7183acc41adc2b833c37c8f540260b25c982bdabe40600fa857a27751b67670b": {
+      "title": "What does concurso mean in Spanish? - WordHippo",
+      "url": "https://www.wordhippo.com/what-is/the-meaning-of/spanish-word-concurso.html",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -256,7 +436,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -266,7 +446,37 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "8008f1858cf6d73e3aeab903bd1aa3c40068a20207106f04a4bfb57c1c32376b": {
+      "title": "English translation of 'el concurso' - Collins Online Dictionary",
+      "url": "https://www.collinsdictionary.com/dictionary/spanish-english/concurso",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "8449acdebe5d421af1fdbd1f7e36c499a9155c9d7122846b66cc1130742672e1": {
+      "title": "Processo Seletivo Simplificado para a Secretaria da Educação do...",
+      "url": "https://conhecimento.fgv.br/concursos/seducsp26edbasica",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "85f57a750c4865dd78edd770070aa73992ed9d19f8ed105bd89264c3d8b07596": {
+      "title": "Consulta de Processos - TJSP",
+      "url": "https://www.tjsp.jus.br/Processos",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -276,7 +486,17 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "8a3f78426f8a967966cb6e657ab2724379fcc2102745f53f80c94a013e964fb3": {
+      "title": "Final del concurso de bachata el palacio Des Moines iowa",
+      "url": "https://www.youtube.com/watch?v=ghIDTeiQriI",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -286,7 +506,17 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "8f5cef2f1173ad5c95830632b405b88aa54d6605ebb733de08372c7941b0bf9a": {
+      "title": "Processo seletivo simplificado: entenda como funciona",
+      "url": "https://concursos.adv.br/processo-seletivo-simplificado/",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -296,7 +526,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -306,7 +536,7 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -316,7 +546,17 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "97c5dea41fe3cd9c6b24b52ba5b309901a8719df5137c467f3eae9432307ca80": {
+      "title": "premios, certamenes, concursos: deConcursos.com - deconcursos",
+      "url": "https://www.deconcursos.com/",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -326,7 +566,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -336,7 +576,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -346,7 +586,27 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "a8ac76bb7f71a2103117913af3512e8b9c94357d7464bb0f80571ca84cd10108": {
+      "title": "Processos - Tribunal de Justiça do Estado do Rio de Janeiro",
+      "url": "https://www.tjrj.jus.br/processos",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "aae08b44faeef284a59796599c8c2d2c05c55e8ff14c15d95c295950cd80622e": {
+      "title": "Academic ranks in the United States - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Academic_ranks_in_the_United_States",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -356,7 +616,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -366,7 +626,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -376,7 +636,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -386,7 +646,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -396,7 +656,17 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "bdb8310c985b7927ec484055cc7d9d5df5ea62213ecf3ea95c20152769c3b72b": {
+      "title": "PROFESSOR | English meaning - Cambridge Dictionary",
+      "url": "https://dictionary.cambridge.org/dictionary/english/professor",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -406,7 +676,7 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -416,7 +686,27 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "be7e732d42101847fd796e57a363c0da64833937ad501afb611431bc93d22e26": {
+      "title": "Concurso | Spanish to English Translation - SpanishDictionary.com",
+      "url": "https://www.spanishdict.com/translate/concurso",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "c3e21de6e8c352ab0708df4825be0af459507dab859721d0c2e23083255635b1": {
+      "title": "TJES » Processos",
+      "url": "https://www.tjes.jus.br/consultas/processos/",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -426,7 +716,37 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "cc4b8be4209f8a5c131ef097e547e9a5f86775684e7c60df0dd4c76fcbf1faca": {
+      "title": "Os meus processos | Tribunais.org.pt",
+      "url": "https://processos.tribunais.org.pt/",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "ccfac577d7fdb95e0ccb56665260981f7d7a42b5bea3d054117e6286dd0a2e12": {
+      "title": "Concursos - map.gob.do",
+      "url": "https://map.gob.do/Concursa/",
+      "source_site": "unila.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "d3048724a6a3abd9561700a872aade3d5207e8b67d64482061a159254fd12e8d": {
+      "title": "Processo Seletivo Simplificado – PSS 2024 - Secretaria de Estado...",
+      "url": "https://seduc.am.gov.br/index.php/component/content/article/5348-processo-seletivo-simplificado-pss-2024.html?Itemid=437",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -436,7 +756,27 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "db4b84d2909e268a73b5d58d642e317ce5c81800efb00fa6974f64674bb559be": {
+      "title": "Processo Seletivo Simplificado - Secretaria da Educação",
+      "url": "https://www.educacao.pr.gov.br/processo_seletivo_simplificado",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "dd64499f1c6472e3aef0da21c33df33d9e97b99fbe9202cfdabfd087173722d5": {
+      "title": "Os meus processos | Tribunais.org.pt",
+      "url": "https://tribunais.org.pt/Processos/Os-meus-processos",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -446,7 +786,17 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-24",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "df35c4b4cecd82e6647583d1a0596ab36a0e96b4abb46337504e3b133bf700b5": {
+      "title": "Processo Seletivo Simplificado - Editais - Secretaria da Educação",
+      "url": "https://www.educacao.pr.gov.br/pss",
+      "source_site": "ifpr.edu.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -456,7 +806,7 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -466,7 +816,17 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "e9fcf03741ee8b6df6be18980e3b518e8faf51506aa14307da638fe3c068f3ae": {
+      "title": "Consultas Processuais - Tribunal de Justiça do Distrito Federal e...",
+      "url": "https://www.tjdft.jus.br/consultas/processuais",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     },
@@ -476,7 +836,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -486,7 +846,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -496,7 +856,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -506,7 +866,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -516,7 +876,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -526,7 +886,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
       "verdict": "false_positive",
       "notified": false
     },
@@ -536,7 +896,7 @@
       "source_site": "ifpr.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -546,7 +906,7 @@
       "source_site": "unioeste.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
-      "miss_count": 4,
+      "miss_count": 5,
       "verdict": "false_positive",
       "notified": false
     },
@@ -556,7 +916,17 @@
       "source_site": "unila.edu.br",
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-24",
-      "miss_count": 1,
+      "miss_count": 2,
+      "verdict": "false_positive",
+      "notified": false
+    },
+    "fd0e0d57bd2bb92b4b50fdd79f8586775ba815d514ca0044bebb0bcb72fb4ebc": {
+      "title": "Consulta Processual no TJ (Tribunais de Justiça) | Jusbrasil",
+      "url": "https://www.jusbrasil.com.br/consulta-processual/TJ",
+      "source_site": "unioeste.br",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "miss_count": 0,
       "verdict": "false_positive",
       "notified": false
     }
